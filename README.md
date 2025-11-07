@@ -31,4 +31,4 @@ Python | Pandas | BeautifulSoup | Jupyter | Tableau | Open-Source Tools
 
 📫 **Connect**
 - LinkedIn: [your link]
-- Substack: [your link]
+- Substack: [https://malikosbourne00.substack.com/]
