@@ -13,6 +13,13 @@ I'm exploring how data, ethics, and technology intersect — using real-world ex
    → Target: [to investigate new age issues and to provide clear evidence proof]
 2. **Mini Investigation #2** — planned (Dec 2025)
 
+### 📁 Repository Structure
+- `projects/` - Mini investigations and research projects
+- `case-studies/` - Detailed case studies and analysis
+- `notebooks/` - Jupyter notebooks for data analysis
+- `scripts/` - Python scripts and automation tools
+- `docs/` - Documentation and resources
+
 ### 🧰 Tech Stack
 Python | Pandas | BeautifulSoup | Jupyter | Tableau | Open-Source Tools
 
