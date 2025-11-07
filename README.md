@@ -27,3 +27,4 @@ Python | Pandas | BeautifulSoup | Jupyter | Tableau | Open-Source Tools
 📫 **Connect**
 - LinkedIn: [your link]
 - Substack: [your link]
+for f in projects notebooks scripts docs; do mkdir -p "$f"; echo "Placeholder for $f folder." > "$f/README.md"; done && git add . && git commit -m "Setup structured folders with README placeholders" && git push origin main
