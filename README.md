@@ -1,4 +1,4 @@
-# OSINT Portfolio — [Your Name]
+# OSINT Portfolio — Malik Osbourne
 
 Welcome to my open-source intelligence (OSINT) and digital verification portfolio.  
 I'm exploring how data, ethics, and technology intersect — using real-world examples to test what's true and what's noise.
@@ -10,7 +10,7 @@ I'm exploring how data, ethics, and technology intersect — using real-world ex
 
 ### 📂 Projects
 1. **Mini Investigation #1** — coming soon (Nov 2025)  
-   → Target: [add short 1-liner, e.g., "Tracing the source of a viral image"]
+   → Target: [to investigate new age issues and to provide clear evidence proof]
 2. **Mini Investigation #2** — planned (Dec 2025)
 
 ### 🧰 Tech Stack
@@ -25,5 +25,3 @@ Python | Pandas | BeautifulSoup | Jupyter | Tableau | Open-Source Tools
 📫 **Connect**
 - LinkedIn: [your link]
 - Substack: [your link]
-
-
