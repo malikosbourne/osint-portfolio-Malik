@@ -1,0 +1,4 @@
+Day 1 — Created GitHub account and OSINT repo.
+
+Goal: Document my progress from brickwork to digital analysis.
+
