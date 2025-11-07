@@ -2,3 +2,10 @@ Day 1 — Created GitHub account and OSINT repo.
 
 Goal: Document my progress from brickwork to digital analysis.
 
+Today's Accomplishments:
+- Organized repository structure with folders: projects/, case-studies/, notebooks/, scripts/, docs/
+- Created and published portfolio README page on GitHub
+- Set up authentication and connected local repo to GitHub
+- Established goals for OSINT investigations and learning path
+- Created learning log to track progress
+
