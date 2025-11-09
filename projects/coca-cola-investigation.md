@@ -27,6 +27,7 @@ The investigation seeks to provide evidence-based analysis that exposes the mech
 - What is the scope of Coca-Cola's transparent traffic light system implementation? (All cans, specific products, vendor-specific?)
 - Do Coca-Cola bottles also feature transparent traffic light systems, or is this limited to cans?
 - How does Coca-Cola's voluntary labelling compare to what mandatory traffic light labelling would require?
+- What percentage of Coca-Cola products in the UK market lack colour-coded traffic light labels versus those that include them?
 
 ## Data Sources
 
@@ -92,6 +93,8 @@ Coca-Cola's implementation of the traffic light system is inconsistent across pr
 
 **Evidence of Missing Traffic Light Colours**: Despite Coca-Cola's 2014 commitment to adopt traffic light labelling, implementation across all products remains partial and inconsistent. Real-world observation confirms that some Coca-Cola products sold in the UK—including cans distributed with meals—lack traffic light colour indicators entirely. This inconsistency means consumers cannot rely on consistent nutritional information across all Coca-Cola products.
 
+**Lack of Transparency in Adoption Rates**: Specific data on what percentage of Coca-Cola products in the UK feature colour-coded traffic light labels versus those that do not is not publicly available. Whilst Coca-Cola has committed to implementing traffic light labels on "core sparkling drinks" in certain markets (Coca-Cola Hellenic, 2024), the exact extent of implementation across their full UK product range remains unclear. Industry-wide estimates suggest that approximately one-third of all food products in the UK do not use the traffic light nutritional scheme (Label Service, n.d.), highlighting the broader issue of inconsistent voluntary adoption. Without comprehensive product audits or mandatory reporting requirements, consumers and public health advocates cannot accurately assess the true scope of Coca-Cola's labelling compliance.
+
 **Label-Less Packaging Trial**: In early 2024, Coca-Cola conducted a trial in the UK where labels were completely removed from 500ml Sprite and Sprite Zero bottles sold in select Tesco Express stores. This "label-less" initiative replaced traditional labels with embossed logos and laser-engraved product information, with nutritional information accessible via QR code (Coca-Cola Company, 2024). Whilst framed as an environmental initiative, this approach further removes visible nutritional information from products, requiring consumers to use digital devices to access basic nutritional data.
 
 **Supporting Evidence**: The House of Lords Report on Food, Diet and Obesity (2024) documents Dr. Chris van Tulleken's critical observation that when Coca-Cola does use traffic light labels, they display "one red and three green" indicators, suggesting the system may serve more as a marketing tool than an effective health warning. This aligns with concerns raised about the Evolved Nutrition Label (ENL) initiative, which used portion sizes to calculate nutrient content, potentially making high-sugar products appear healthier by avoiding red indicators (Food Navigator, 2018).
@@ -146,6 +149,14 @@ The use of transparent traffic systems represents a form of "healthwashing"—a 
 8. **Sustainable Brands - Adoption Analysis** (2014)
    - [Sustainable Brands](https://sustainablebrands.com/read/coca-cola-adopts-front-of-pack-traffic-light-nutritional-labels-in-uk)
    - Reports on adoption and concerns about portion size calculations
+
+9. **Label Service - Traffic Light Adoption Statistics**
+   - [Label Service](https://www.labelservice.co.uk/traffic-light-nutrition-labels-affect-marketing/)
+   - Industry estimates suggesting approximately one-third of all food products in the UK do not use the traffic light nutritional scheme
+
+10. **Coca-Cola Hellenic - Nutrition Commitments** (2024)
+    - [Coca-Cola Hellenic](https://www.coca-colahellenic.com/en/a-more-sustainable-future/mission-2025/nutrition)
+    - Reports voluntary addition of traffic-light labels to core sparkling drinks in 22 markets, including the UK
 
 ## Analysis
 [Your analysis and interpretation of the findings]
