@@ -33,7 +33,31 @@ The investigation seeks to provide evidence-based analysis that exposes the mech
 - [Source 2]
 
 ## Methodology
-[Describe your investigation approach]
+
+This investigation began with a real-world observation that sparked a deeper inquiry into regulatory practices and corporate marketing strategies. The methodology follows a discovery-driven approach:
+
+### Initial Observation
+
+The investigation originated from a personal experience: whilst consuming a meal that included a can of Coca-Cola, I noticed that the traffic light colour indicators were not present on the product label. This observation prompted an immediate question: was this labelling system mandatory or voluntary?
+
+### Research Progression
+
+1. **Regulatory Research**: Initial research revealed that the traffic light nutritional labelling system is voluntary rather than mandatory in the UK, despite being recognised as a valuable public health tool.
+
+2. **Post-Brexit Context Discovery**: Further investigation uncovered that since leaving the European Union, the UK has gained the autonomy to mandate the traffic light system—a regulatory power that was previously constrained by EU regulations. This raised questions about why the government had chosen not to exercise this new authority.
+
+3. **Marketing Analysis**: The absence of clear labelling on the observed product, combined with knowledge of Coca-Cola's use of transparent or subtle traffic light systems in other contexts, led to an analysis of the marketing psychology behind voluntary compliance and selective transparency.
+
+4. **Policy Hypocrisy Examination**: The investigation then expanded to examine the apparent hypocrisy of UK government policy, particularly in contexts where the government takes invasive action in the name of public healthcare (such as banning 2-for-1 fizzy drink refills) whilst simultaneously failing to mandate clear, accessible nutritional information that would genuinely empower consumers.
+
+### Investigation Approach
+
+The methodology combines:
+- Real-world observation and primary source material (product packaging)
+- Regulatory and policy research
+- Analysis of corporate marketing strategies
+- Comparative examination of government health policy implementation
+- Critical analysis of the disconnect between stated public health goals and actual policy enforcement
 
 ## Findings
 
