@@ -24,7 +24,7 @@ I'm exploring how data, ethics, and technology intersect — using real-world ex
 Python | Pandas | BeautifulSoup | Jupyter | Tableau | Open-Source Tools
 
 ### 🧾 Current Learning
-- Coursera: *AI Ethics*  
+- 🎓 AI Ethics, Responsible Use & Creativity – University of Michigan
 - Next: *Python for Data Analysis* (FreeCodeCamp)
 
 ---
