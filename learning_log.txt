@@ -9,3 +9,32 @@ Today's Accomplishments:
 - Established goals for OSINT investigations and learning path
 - Created learning log to track progress
 
+Day 2 — Coca-Cola Investigation: UK Traffic Light Labelling System
+
+Goal: Investigate selective health policy and corporate transparency in UK nutritional labelling.
+
+Today's Accomplishments:
+- Initiated investigation into Coca-Cola's inconsistent use of traffic light nutritional labelling system in UK
+- Documented real-world observation: Coca-Cola can without traffic light colour indicators obtained with meal purchase
+- Researched post-Brexit regulatory opportunity for UK to mandate traffic light system
+- Investigated government inaction despite public health concerns
+- Analysed Coca-Cola's marketing psychology and selective transparency practices
+- Compiled comprehensive evidence from multiple sources:
+  * House of Lords Report on Food, Diet and Obesity (2024)
+  * News articles documenting Coca-Cola's initial rejection and later adoption
+  * Industry reports on label-less packaging trials
+  * Parliamentary and industry criticism of labelling effectiveness
+- Documented lack of transparency in adoption rates (no public data on percentage of products using system)
+- Established investigation framework with clear objectives, methodology, research questions, and evidence base
+- Converted all documentation to British English (Queen's English) spelling
+- Created structured investigation document with sections: Objective, Background, Research Questions, Data Sources, Methodology, Findings, Evidence, Analysis, Conclusion, and Resources
+- Pushed all work to GitHub repository with detailed commit messages
+
+Key Findings:
+- Traffic light system remains voluntary in UK despite post-Brexit opportunity to mandate it
+- Coca-Cola's implementation is inconsistent across products (some have labels, some don't)
+- When labels are present, they use "one red, three green" pattern minimising negative visual cues
+- 2024 label-less packaging trial removed visible nutritional information entirely
+- Industry estimates suggest approximately one-third of all UK food products don't use traffic light system
+- No public data available on specific percentage of Coca-Cola products using the system
+
