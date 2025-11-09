@@ -25,6 +25,7 @@ Python | Pandas | BeautifulSoup | Jupyter | Tableau | Open-Source Tools
 
 ### 🧾 Current Learning
 - 🎓 AI Ethics, Responsible Use & Creativity – University of Michigan
+- 🎓 Ethical AI and Innovation – SAS
 - Next: *Python for Data Analysis* (FreeCodeCamp)
 
 ---
