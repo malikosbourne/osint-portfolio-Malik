@@ -1,7 +1,7 @@
 # Coca Cola Investigation
 
 **Status:** In Progress  
-**Date Started:** [Add date]  
+**Date Started:** 7th November 2025  
 **Project Type:** OSINT Investigation
 
 ## Objective
