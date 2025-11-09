@@ -100,7 +100,7 @@ This inconsistent approach—using traffic lights selectively, minimising negati
 
 This practice is ethically problematic because:
 - It creates an illusion of transparency and health consciousness without substantive change
-- It exploits consumer trust by appearing to comply with health standards while avoiding mandatory requirements
+- It exploits consumer trust by appearing to comply with health standards whilst choosing not to be transparent and health-conscious for consumers when given the option
 - It uses psychological manipulation to make high-sugar products appear more acceptable
 - It undermines the purpose of clear nutritional labelling by implementing it in a way that serves corporate interests rather than public health
 
