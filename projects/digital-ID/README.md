@@ -5,7 +5,8 @@
 **Project Type:** OSINT Investigation
 
 ## Objective
-[Add your investigation objective here]
+
+Decode and unravel the real intentions of digital ID.
 
 ## Background
 [Add background information about what you're investigating]
