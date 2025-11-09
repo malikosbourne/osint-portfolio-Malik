@@ -107,7 +107,45 @@ This practice is ethically problematic because:
 The use of transparent traffic systems represents a form of "healthwashing"—a marketing technique that makes products appear healthier or more socially responsible than they are, whilst avoiding the full accountability that mandatory labelling would require.
 
 ## Evidence
-[Link to evidence, screenshots, data files, etc.]
+
+### Primary Evidence
+- Real-world observation: Coca-Cola can without traffic light colour indicators (obtained with meal purchase)
+- Direct examination of product packaging and labelling inconsistencies
+
+### Documentary Evidence
+
+1. **House of Lords Report on Food, Diet and Obesity** (2024)
+   - [UK Parliament Publications](https://publications.parliament.uk/pa/ld5901/ldselect/ldmfdo/19/19.pdf)
+   - Critical analysis of traffic light labelling effectiveness, including Dr. Chris van Tulleken's observation of "one red and three green" indicators on Coca-Cola products
+
+2. **Coca-Cola's Initial Rejection of Traffic Light System** (2013)
+   - [The Independent](https://www.independent.co.uk/news/uk/home-news/plans-for-new-food-labelling-to-combat-uk-obesity-are-dealt-blow-as-cadbury-and-cocacola-reject-traffic-light-system-8664362.html)
+   - Documents Coca-Cola's preference for GDA system over traffic light labelling
+
+3. **Coca-Cola's Commitment to Traffic Light Labelling** (2013)
+   - [Just-Drinks](https://www.just-drinks.com/news/uk-ireland-coca-cola-co-commits-to-colour-coded-labelling/)
+   - Reports 2013 commitment to implementing traffic light labelling
+
+4. **Traffic Light Labelling Implementation** (2014)
+   - [Beverage Daily](https://www.beveragedaily.com/Article/2014/09/05/Coke-passes-green-for-Go%21-with-UK-traffic-light-nutrition-labeling/)
+   - Documents adoption of traffic light labelling in 2014
+
+5. **Evolved Nutrition Label Criticism** (2018)
+   - [Food Navigator](https://www.foodnavigator.com/Article/2018/01/09/90-sugar-and-fat-but-no-red-light-Foodwatch-slams-industry-s-Evolved-Nutrition-logo/)
+   - Criticises ENL initiative for using portion sizes to make high-sugar products appear healthier
+
+6. **Label-Less Packaging Trial** (2024)
+   - [Coca-Cola Company](https://www.coca-cola.com/gb/en/media-center/coca-cola-strips-sprite-labels-in-uk-label-less-packaging-trial)
+   - [Coca-Cola EP](https://www.cocacolaep.com/gb/news-and-stories/coca-cola-strips-labels-from-sprite-on-the-go-bottles-in-companys-first-uk-trial-of-label-less-packaging/)
+   - Documents removal of labels from Sprite products, with nutritional information only via QR code
+
+7. **Traffic Light System Criticism**
+   - [LBC](https://www.lbc.co.uk/article/the-traffic-light-food-labels-are-a-nutritional-con-rpXp6_2/)
+   - Discussion of traffic light labelling effectiveness and consumer confusion
+
+8. **Sustainable Brands - Adoption Analysis** (2014)
+   - [Sustainable Brands](https://sustainablebrands.com/read/coca-cola-adopts-front-of-pack-traffic-light-nutritional-labels-in-uk)
+   - Reports on adoption and concerns about portion size calculations
 
 ## Analysis
 [Your analysis and interpretation of the findings]
