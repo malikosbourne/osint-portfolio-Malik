@@ -38,3 +38,17 @@ Key Findings:
 - Industry estimates suggest approximately one-third of all UK food products don't use traffic light system
 - No public data available on specific percentage of Coca-Cola products using the system
 
+Day 3 — AI Governance Research Essay
+
+Goal: Capture and publish structured thinking on responsible AI development for future reference and public sharing.
+
+Today's Accomplishments:
+- Added a dedicated `AI Governance Research` essay to `docs/ai-governance-research.md`, detailing risks, regulatory needs, and strategic priorities.
+- Kept the portfolio `README.md` concise by removing the full essay while retaining focus areas and links.
+- Published all updates to GitHub with clear commit history for transparency.
+
+Key Takeaways:
+- Structuring conceptual research as a standalone document keeps the portfolio entry points clean while preserving depth elsewhere.
+- Maintaining British English across documents ensures consistency with previous work.
+- Documenting governance concerns now will inform future investigations into AI-related claims and policies.
+
