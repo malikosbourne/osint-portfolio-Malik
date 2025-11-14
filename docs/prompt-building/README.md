@@ -1,5 +1,19 @@
 # The Portrait Prompt Series  
 
+<p align="left">
+
+  <img src="https://img.shields.io/badge/Status-Pre--Release-blue?style=flat-square" alt="status-badge"/>
+
+  <img src="https://img.shields.io/badge/Module-01%20%7C%20Grit%20%26%20Realism-black?style=flat-square" alt="module-badge"/>
+
+  <img src="https://img.shields.io/badge/Series-The%20Portrait%20Prompt%20Series-grey?style=flat-square" alt="series-badge"/>
+
+  <img src="https://img.shields.io/badge/License-CC--BY--4.0-green?style=flat-square" alt="license-badge"/>
+
+  <img src="https://img.shields.io/badge/Creator-Malik%20Osbourne-white?style=flat-square" alt="creator-badge"/>
+
+</p>
+
 ### **Module 01 — GRIT & REALISM**
 
 
@@ -124,11 +138,9 @@ A full roadmap lives in `roadmap.md`.
 
 ## 🧾 License
 
-> **TBD** — recommended formats:  
-> - Creative Commons Attribution 4.0 (CC-BY)  
-> - MIT License  
->  
-Select based on whether you want attribution required or fully open reuse.
+This work is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+See [LICENSE.md](./LICENSE.md) for full license details.
 
 ---
 
