@@ -17,23 +17,33 @@ Each prompt entry follows this structure:
 
 ## Prompts
 
-### Prompt 01: [Title]
+### Prompt 01: Spontaneous Off-Guard Portrait
 
 **Quick Copy Prompt:**
 ```
-[Add quick copy prompt here]
+Portrait of someone caught slightly off guard, looking toward camera, 50mm or 85mm prime lens, shallow depth of field, soft natural lighting (overcast or window spill), realistic skin texture with pores and imperfections, unplanned comfortable clothing with natural wrinkles, spontaneous moment, documentary style
 ```
 
 **Structured Prompt:**
 ```
-[Add structured prompt with detailed breakdown here]
+A portrait of someone caught slightly off guard, looking toward the camera rather than posing.
+
+Lens simulation: 50mm or 85mm prime with shallow depth of field.
+
+Lighting is soft and natural — overcast or window spill with subtle shadow gradients.
+
+Skin texture remains realistic, showing pores, tonal variation, and small imperfections.
+
+Clothing appears unplanned and comfortable, with natural wrinkles and softness.
+
+The moment feels spontaneous rather than staged, like a frame captured in transition.
 ```
 
 **Example Output:**
 - See: `examples/example-01.jpg`
 
 **Commentary:**
-*[Add your photographic reasoning and notes here in italics]*
+*This prompt prioritizes authenticity over polish. The "off guard" moment creates emotional honesty — when someone isn't fully prepared for the camera, their expression is more genuine. The 50-85mm range mimics classic portrait photography, while shallow depth of field draws focus to the subject's face. Soft, natural lighting avoids harsh shadows that can feel artificial. Realistic skin texture is crucial here; AI defaults to smoothing, so explicitly requesting pores and imperfections pushes against that tendency. The unplanned clothing detail reinforces the documentary approach — this isn't a fashion shoot, it's a moment captured.*
 
 ---
 
