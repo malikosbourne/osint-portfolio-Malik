@@ -47,23 +47,33 @@ The moment feels spontaneous rather than staged, like a frame captured in transi
 
 ---
 
-### Prompt 02: [Title]
+### Prompt 02: End of Day Fatigue Portrait
 
 **Quick Copy Prompt:**
 ```
-[Add quick copy prompt here]
+Portrait of someone at the end of a long day, relaxed posture, softened energy, naturally tired expression, 85mm lens, shallow depth of field, ambient indoor light or late-day soft natural light, realistic skin with fine lines, under-eye darkness, tonal inconsistency, casual slightly worn clothing, captures fatigue without sadness, honest portrait
 ```
 
 **Structured Prompt:**
 ```
-[Add structured prompt with detailed breakdown here]
+A portrait of someone at the end of a long day — relaxed posture, softened energy, and a naturally tired expression.
+
+Lens simulation: 85mm with shallow depth of field.
+
+Lighting is ambient indoor light or late-day soft natural light.
+
+Skin remains real: fine lines, under-eye darkness, and tonal inconsistency are visible.
+
+Clothing appears casual and slightly worn from the day.
+
+The portrait captures fatigue without sadness — just honesty.
 ```
 
 **Example Output:**
 - See: `examples/example-02.jpg`
 
 **Commentary:**
-*[Add your photographic reasoning and notes here in italics]*
+*This prompt explores a specific emotional state that's rarely represented in polished AI imagery: genuine fatigue. The "end of day" framing creates context for the relaxed posture and tired expression — this isn't weakness, it's human reality. The 85mm focal length provides compression that feels intimate without being invasive. Ambient or late-day lighting reinforces the time-of-day narrative and avoids the harshness of midday sun. Explicitly requesting under-eye darkness and fine lines is crucial; AI will default to removing these "flaws," but here they're essential to the story. The distinction between "fatigue without sadness" is important — this isn't depression, it's the honest weariness of someone who's lived their day. The slightly worn clothing adds texture and reinforces the narrative of time passing.*
 
 ---
 
