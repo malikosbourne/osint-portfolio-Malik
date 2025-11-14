@@ -14,17 +14,23 @@
 
 </p>
 
+This project explores where photography theory and AI image generation meet.  
+
+Most AI portraits default to flawless symmetry, perfect lighting, and polished skin — which is visually impressive, but not human.  
+
+
+
+This first module focuses on realism, imperfection, and emotional honesty.  
+
+It blends photography language, documentary visual logic, and structured prompt engineering to create repeatable, cinematic portrait outputs with character and grit.
+
+
+
+This repository will grow over time into a full series, with each module exploring a different approach to portrait creation.
+
+---
+
 ### **Module 01 — GRIT & REALISM**
-
-
-
-A structured AI prompt toolkit designed to help artists, photographers, and creators produce emotionally authentic portrait images using models like Midjourney and Stable Diffusion.
-
-
-
-Most AI portraits lean toward perfection—smooth skin, balanced lighting, flawless symmetry.  
-
-This module intentionally pushes in the opposite direction: toward real skin, imperfect expression, uneven light, and a documentary approach to portraiture.
 
 
 
