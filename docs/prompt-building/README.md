@@ -96,15 +96,63 @@ portrait-prompt-series/
 
 ---
 
-## Modules
+## ✔ Status
 
-- **Module 01: Grit Realism** - [View Module](./module-01-grit-realism/)
+| Component | Status |
+|----------|--------|
+| Module 01 — Grit & Realism | **Completed** |
+| Notion version | Ready |
+| PDF (light + dark edition) | In progress |
+| Example outputs | In progress |
+| Module 02 | Planned |
+| Public release | Upcoming |
 
-## Roadmap
+---
 
-See [roadmap.md](./roadmap.md) for planned modules and updates.
+## 🧭 Roadmap (High Level)
 
-## License
+- Module 02 — Surreal Documentary  
+- Module 03 — Archetypes & Faces  
+- Module 04 — Film Simulation Sets  
+- Module 05 — Narrative Context Prompts  
+- User feedback testing set  
+- Optional community version
 
-See [LICENSE.md](./LICENSE.md) for license information.
+A full roadmap lives in `roadmap.md`.
+
+---
+
+## 🧾 License
+
+> **TBD** — recommended formats:  
+> - Creative Commons Attribution 4.0 (CC-BY)  
+> - MIT License  
+>  
+Select based on whether you want attribution required or fully open reuse.
+
+---
+
+## ⭐ Contribution & Use
+
+This is currently a personal creative project and portfolio demonstration.  
+Future versions may accept:
+
+- community example submissions  
+- refinement suggestions  
+- additional modules from other photographers or prompt engineers  
+
+---
+
+## 🧩 Intent
+
+This project isn't just a prompt list —  
+it's an evolving framework exploring where photography theory and AI image creation overlap.
+
+Real portraiture isn't perfect.
+
+That's the point.
+
+---
+
+**Version:** `v1.0-pre-release`
 
