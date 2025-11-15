@@ -51,4 +51,14 @@ Key Takeaways:
 - Structuring conceptual research as a standalone document keeps the portfolio entry points clean while preserving depth elsewhere.
 - Maintaining British English across documents ensures consistency with previous work.
 - Documenting governance concerns now will inform future investigations into AI-related claims and policies.
+Learning Log — Streamlit Podcast AI App
 
+Today I built and tested a working offline Streamlit application that can take an MP3 file, transcribe it using OpenAI Whisper, and automatically generate timestamps, subtitles, and structured transcript data. The app can now export the transcript in multiple formats, including SRT subtitles, a timestamped text file, raw JSON segments, and a standard .txt version.
+
+I also integrated semantic search using the all-MiniLM-L6-v2 SentenceTransformer model so that the transcript can be searched by meaning, not just keywords. This allows the app to locate ideas, themes, or phrases across the recording, which feels like the first step toward a real personal knowledge search engine.
+
+There were a few technical challenges: missing dependencies, ffmpeg not installed, mismatched virtual environment paths, and a small Git conflict. I resolved each issue, configured the environment correctly, and linked the new project to my existing GitHub repository. The project now saves and pushes cleanly.
+
+The UI also improved today — timestamps now display directly inside the app, not only in download files, and the overall layout feels clearer and more user-friendly.
+
+By the end of the session, the project was working, committed, and safely stored in GitHub. Good progress, and a solid foundation for future features.
