@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "OSINT Portfolio",
+			"path": "."
+		},
+		{
+			"name": "Podcast AI",
+			"path": "/Users/malikosbourne/podcast-ai"
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "${workspaceFolder:Podcast AI}/venv/bin/python",
+		"python.terminal.activateEnvironment": true,
+		"files.exclude": {
+			"**/venv": false
+		}
+	}
+}
+
