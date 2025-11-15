@@ -53,6 +53,7 @@ Key Takeaways:
 - Documenting governance concerns now will inform future investigations into AI-related claims and policies.
 Learning Log — Streamlit Podcast AI App
 
+
 Today I built and tested a working offline Streamlit application that can take an MP3 file, transcribe it using OpenAI Whisper, and automatically generate timestamps, subtitles, and structured transcript data. The app can now export the transcript in multiple formats, including SRT subtitles, a timestamped text file, raw JSON segments, and a standard .txt version.
 
 I also integrated semantic search using the all-MiniLM-L6-v2 SentenceTransformer model so that the transcript can be searched by meaning, not just keywords. This allows the app to locate ideas, themes, or phrases across the recording, which feels like the first step toward a real personal knowledge search engine.
@@ -62,3 +63,72 @@ There were a few technical challenges: missing dependencies, ffmpeg not installe
 The UI also improved today — timestamps now display directly inside the app, not only in download files, and the overall layout feels clearer and more user-friendly.
 
 By the end of the session, the project was working, committed, and safely stored in GitHub. Good progress, and a solid foundation for future features.
+
+Day 4 — Podcast AI Search Tool Development
+
+Goal: Build a local AI-powered tool for transcribing podcasts and performing semantic search, designed for OSINT workflows and long-form audio analysis.
+
+Today's Accomplishments:
+- Created complete podcast transcription and search application using Streamlit, Whisper, and Sentence Transformers
+- Built main Streamlit web app (app.py) with:
+  * MP3 file upload functionality
+  * Local Whisper transcription (base model)
+  * Timestamped transcript generation with human-readable format
+  * Semantic search using Sentence Transformers (all-MiniLM-L6-v2)
+  * Multiple export formats: plain text, timestamped text, JSON segments, SRT subtitles
+  * Project saving feature that organises all files into named folders
+  * Pre-computed embeddings storage for faster future searches
+- Created command-line transcription tool (cli_transcribe.py) with:
+  * Batch processing capability
+  * Multiple output formats (timestamped TXT, JSON, SRT)
+  * Terminal alias setup for quick access
+- Implemented timestamped search results showing exact audio positions
+- Added project workspace functionality:
+  * Save complete projects with all files organised
+  * Store embeddings for faster re-searches
+  * Metadata tracking (creation date, model versions, segment counts)
+- Updated documentation:
+  * Comprehensive README.md with installation and usage instructions
+  * Requirements.txt with all dependencies
+  * .gitignore configured for generated files
+- Enhanced UI/UX:
+  * Session state management for search
+  * Results header showing query
+  * Hotkey hints for future keyboard shortcuts
+  * Multiple download buttons for different formats
+- All processing runs fully offline for privacy and security
+- Integrated into osint-portfolio-Malik repository structure
+
+Key Features:
+- ⚡ Local Whisper transcription (no cloud)
+- 🔍 Semantic search (meaning-based, not just exact keywords)
+- ⏱️ Timestamped results for precise audio navigation
+- 💾 Project saving with organised folder structure
+- 🎬 SRT subtitle generation for video editing
+- 📁 Multiple export formats (TXT, JSON, SRT)
+- 🧠 Pre-computed embeddings for performance
+- 🔒 Fully offline processing
+
+Technical Stack:
+- Python 3.10+
+- Streamlit for web UI
+- OpenAI Whisper (base model) for transcription
+- Sentence Transformers for semantic search
+- FFmpeg for audio processing
+
+Use Cases:
+- OSINT investigations requiring audio analysis
+- Podcast research and content extraction
+- Long-form audio transcription and search
+- Creating searchable archives of audio content
+- Generating subtitles for video production
+
+Key Takeaways:
+- Building local AI tools provides privacy and control over sensitive content
+- Semantic search is more powerful than keyword matching for finding concepts
+- Timestamped results are essential for navigating long audio files
+- Project organisation makes it easy to manage multiple investigations
+- Pre-computing embeddings significantly speeds up repeated searches
+- Offline processing is crucial for sensitive OSINT work
+
+>>>>>>> 6d466c4 (Add project structure folders for persistence and future expansion)
