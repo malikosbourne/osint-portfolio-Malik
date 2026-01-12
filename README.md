@@ -14,7 +14,7 @@ Welcome to my open-source intelligence (OSINT) and digital verification portfoli
 **Status:** In Progress  
 An investigation into how digital ID systems, consent frameworks, and safeguarding protocols create systems of control that operate differently from traditional authoritarianism but achieve similar ends. Explores how digital infrastructure enforces conformity through mechanisms that appear democratic, protective, or necessary.
 
-### [Coca-Cola Investigation](projects/coca-cola-investigation.md)
+### [Coca-Cola Investigation](projects/coca-cola-investigation/README.md)
 **Status:** In Progress  
 Examining selective health policies in the UK and how major corporations exploit regulatory loopholes. Investigates the disconnect between stated public health goals and actual policy implementation, focusing on traffic light nutritional labelling and corporate marketing strategies.
 
@@ -25,8 +25,10 @@ Local AI-powered podcast transcription, semantic search, and content generation 
 ## 📁 Repository Structure
 
 - **`projects/`** - Active investigations and research projects
+  - Each investigation has its own folder with detailed documentation
 - **`notebooks/`** - Jupyter notebooks for data analysis and visualization
 - **`docs/`** - Documentation, research notes, and resources
+- **`learning/`** - Personal learning notes and logs
 - **`podcast-ai/`** - AI podcast transcription and analysis tool
 
 ## 🧰 Technical Skills
