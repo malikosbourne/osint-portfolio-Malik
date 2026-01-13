@@ -29,24 +29,3 @@ ENV/
 Untitled/
 *.tmp
 
-# Audio and media files
-*.mp3
-*.wav
-*.mp4
-
-# Transcript and subtitle files (keep in project folders if needed)
-*.srt
-transcript*.txt
-*_timestamps.txt
-
-# Log files
-learning_log*.txt
-*.log
-
-# Data files (keep in project folders)
-segments.json
-uploaded.*
-
-# Workspace files
-*.code-workspace
-
