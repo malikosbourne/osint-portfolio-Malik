@@ -10,6 +10,8 @@ This project contains a comprehensive case study research document and boardroom
 
 ## Contents
 
+- **executive-summary.md** - One-paragraph executive summary with key metrics and ROI
+- **conclusion.md** - Final conclusion and key takeaways
 - **case-study-research.md** - Detailed research document covering:
   - Before and after digital transformation scenarios
   - People, Processes, Technology, and Ethics & Risk mapping
