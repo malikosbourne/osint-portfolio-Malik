@@ -13,12 +13,20 @@ I'm exploring how data, ethics, and technology intersect — using real-world ex
    → Local AI-powered podcast transcription, semantic search, and content generation tool
 2. **[Coca-Cola Investigation](projects/coca-cola-investigation.md)** — In Progress  
    → Examining selective health policies and corporate marketing strategies
-3. **Mini Investigation #1** — coming soon (Nov 2025)  
+3. **[IT Support Ticket Simulator](IT-Support-Ticket-Simulator/)** — Active  
+   → Realistic IT support ticketing system using GitHub Issues to practice troubleshooting and ticket management
+4. **Mini Investigation #1** — coming soon (Nov 2025)  
    → Target: [to investigate new age issues and to provide clear evidence proof]
-4. **Mini Investigation #2** — planned (Dec 2025)
+5. **Mini Investigation #2** — planned (Dec 2025)
+
+### 📚 Books Analysis
+**[Books Section](books/README.md)** — Analyzing tech and political books  
+→ Currently reading: **[The Digital Ape](books/the-digital-ape.md)** — Human-machine collaboration and AI ethics
 
 ### 📁 Repository Structure
 - `projects/` - Mini investigations and research projects
+- `IT-Support-Ticket-Simulator/` - IT support ticketing system using GitHub Issues
+- `books/` - Book analyses and learnings (tech, politics, ethics)
 - `case-studies/` - Detailed case studies and analysis
 - `notebooks/` - Jupyter notebooks for data analysis
 - `scripts/` - Python scripts and automation tools
