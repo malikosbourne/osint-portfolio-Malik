@@ -1,47 +1,54 @@
 # OSINT Portfolio — Malik Osbourne
 
-Welcome to my open-source intelligence (OSINT) and digital verification portfolio.  
-I'm exploring how data, ethics, and technology intersect — using real-world examples to test what's true and what's noise.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
+[![Topics](https://img.shields.io/badge/Topics-OSINT%20%7C%20Ethics%20%7C%20Data%20Analysis-lightgrey)]()
 
-### 🔍 Focus Areas
-- Verification of online images, posts, and claims  
-- Ethical AI and digital truth frameworks  
-- Data scraping, visualization, and reproducibility  
+Welcome — this repository collects my open-source intelligence (OSINT), digital verification work, and reproducible investigations. I focus on combining data, ethics, and open tools to evaluate claims and produce transparent, reproducible findings.
 
-### 📂 Projects
-1. **[AI Podcast Studio](projects/ai-podcast-studio.md)** — Active  
-   → Local AI-powered podcast transcription, semantic search, and content generation tool
-2. **[Coca-Cola Investigation](projects/coca-cola-investigation.md)** — In Progress  
-   → Examining selective health policies and corporate marketing strategies
-3. **[IT Support Ticket Simulator](IT-Support-Ticket-Simulator/)** — Active  
-   → Realistic IT support ticketing system using GitHub Issues to practice troubleshooting and ticket management
-4. **Mini Investigation #1** — coming soon (Nov 2025)  
-   → Target: [to investigate new age issues and to provide clear evidence proof]
-5. **Mini Investigation #2** — planned (Dec 2025)
+Demo / Highlights
+- AI Podcast Studio — local transcription + semantic search + content generation (see projects/ai-podcast-studio.md)
+- Coca‑Cola Investigation — in-progress case study on marketing and health policy (see projects/coca-cola-investigation.md)
+- IT Support Ticket Simulator — hands-on demo of Issue-driven workflows (see IT-Support-Ticket-Simulator/)
 
-### 📚 Books Analysis
-**[Books Section](books/README.md)** — Analyzing tech and political books  
-→ Currently reading: **[The Digital Ape](books/the-digital-ape.md)** — Human-machine collaboration and AI ethics
+Quick links
+- Projects overview: ./projects/
+- Notebooks (reproducible analyses): ./notebooks/
+- Digital bootcamp log: ./Digital-bootcamp/
+- Books & notes: ./books/
+- Contact / Subscribe: https://malikosbourne00.substack.com/
 
-### 📁 Repository Structure
-- `projects/` - Mini investigations and research projects
-- `IT-Support-Ticket-Simulator/` - IT support ticketing system using GitHub Issues
-- `books/` - Book analyses and learnings (tech, politics, ethics)
-- `case-studies/` - Detailed case studies and analysis
-- `notebooks/` - Jupyter notebooks for data analysis
-- `scripts/` - Python scripts and automation tools
-- `docs/` - Documentation and resources
+Why this repo
+- Transparent OSINT workflows with annotated notebooks and write-ups
+- Emphasis on ethics and reproducibility (add DATA_USAGE.md and CITATION.cff)
+- Practical projects suitable for portfolio demos and interviews
 
-### 🧰 Tech Stack
-Python | Pandas | BeautifulSoup | Jupyter | Tableau | Open-Source Tools
+Structure
+- projects/ — investigations and project pages (each project should have its own README)
+- notebooks/ — Jupyter notebooks + sample data pointers (include environment.yml / requirements.txt)
+- IT-Support-Ticket-Simulator/ — hands-on project that uses GitHub Issues to simulate tickets
+- books/ — reading notes and analyses
 
-### 🧾 Current Learning
-- 🎓 AI Ethics, Responsible Use & Creativity – University of Michigan
-- 🎓 Ethical AI and Innovation – SAS
-- Next: *Python for Data Analysis* (FreeCodeCamp)
+Reproducibility
+To reproduce notebooks locally:
+1. Create environment:
+   - conda env: `conda env create -f environment.yml` (if provided)
+   - or pip: `python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt`
+2. Launch Jupyter: `jupyter lab`
+3. Open notebooks in `notebooks/` and follow the top-level README there.
 
----
+Ethics & Data
+- All investigations follow a principle of minimizing harm: do not expose private identifiers or dox individuals.
+- For any dataset, see `DATA_USAGE.md` (add per-project) describing sources, licenses, and redaction steps.
 
-📫 **Connect**
-- LinkedIn: [your link]
-- Substack: [https://malikosbourne00.substack.com/]
+How to contribute
+- See CONTRIBUTING.md for contribution guidelines and templates.
+- If you want to reproduce or extend an investigation, open an issue with the tag `enhancement` and describe your proposal.
+
+License & Citation
+- License: MIT (LICENSE file added)
+- Consider adding CITATION.cff if you want academic citations for your case studies.
+
+Contact
+- Substack: https://malikosbourne00.substack.com/
+- LinkedIn: (add link)
