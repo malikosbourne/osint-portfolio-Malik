@@ -4,7 +4,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 [![Topics](https://img.shields.io/badge/Topics-OSINT%20%7C%20Ethics%20%7C%20Data%20Analysis-lightgrey)]()
 
-Welcome — this repository collects my open-source intelligence (OSINT), digital verification work, and reproducible investigations. I focus on combining data, ethics, and open tools to evaluate claims and produce transparent, reproducible findings.
+Welcome — this repository collects my open-source intelligence (OSINT), digital verification work, and reproducible investigations. I focus on combining data, ethics, and open tools to evaluate claims and produce transparent, reproducible findings and personal IT projects.
 
 Demo / Highlights
 - AI Podcast Studio — local transcription + semantic search + content generation (see projects/ai-podcast-studio.md)
@@ -41,14 +41,12 @@ Ethics & Data
 - All investigations follow a principle of minimizing harm: do not expose private identifiers or dox individuals.
 - For any dataset, see `DATA_USAGE.md` (add per-project) describing sources, licenses, and redaction steps.
 
-How to contribute
-- See CONTRIBUTING.md for contribution guidelines and templates.
-- If you want to reproduce or extend an investigation, open an issue with the tag `enhancement` and describe your proposal.
+
 
 License & Citation
 - License: MIT (LICENSE file added)
-- Consider adding CITATION.cff if you want academic citations for your case studies.
+  
 
 Contact
 - Substack: https://malikosbourne00.substack.com/
-- LinkedIn: (add link)
+- LinkedIn: https://www.linkedin.com/in/malik-osbourne-978b90145/
