@@ -4,7 +4,7 @@ A **public lab notebook** for AZ-900, reframed through risk, compliance, and gov
 
 ## Why this repo exists
 
-Everyone studies AZ-900. Almost nobody documents *thinking*. This repo shows:
+ This repo shows:
 
 - **Concepts** — What matters for risk, compliance, and people
 - **Threat scenarios** — What goes wrong in real life, and who gets hurt
@@ -12,7 +12,6 @@ Everyone studies AZ-900. Almost nobody documents *thinking*. This repo shows:
 - **Paper labs** — Scenario-based investigations (no paid labs required)
 - **Learning log** — Progress and reflection over time
 
-When you eventually do GRC Mastery (or similar), you plug new knowledge into this structure. The timeline itself becomes evidence: *started here → refined this → improved governance decisions*.
 
 ## Structure
 
@@ -39,4 +38,4 @@ Every concept and threat file answers:
 
 ## Licence
 
-Use and adapt for your own learning. If you reuse structure or content, attribution is appreciated.
+
