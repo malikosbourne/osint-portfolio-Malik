@@ -118,4 +118,4 @@ After controls:
 
 ---
 
-*This lab is a **paper** exercise. In a real engagement, you’d validate against the actual tenant (subscriptions, policies, identities) and update with findings. Use it to demonstrate structured thinking and GRC literacy.*
+*This lab is a **paper** exercise. In a real engagement, I would validate against the actual tenant (subscriptions, policies, identities) and update with findings. I am using this to demonstrate structured thinking and GRC literacy.*
