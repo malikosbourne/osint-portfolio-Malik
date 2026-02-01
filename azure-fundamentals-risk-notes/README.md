@@ -9,7 +9,7 @@ A **public lab notebook** for AZ-900, reframed through risk, compliance, and gov
 - **Concepts** — What matters for risk, compliance, and people
 - **Threat scenarios** — What goes wrong in real life, and who gets hurt
 - **Governance** — Basic frameworks and decision logging
-- **Paper labs** — Scenario-based investigations (no paid labs required)
+- **Paper labs** — Scenario-based investigations 
 - **Learning log** — Progress and reflection over time
 
 
