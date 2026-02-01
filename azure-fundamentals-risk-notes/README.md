@@ -4,7 +4,7 @@ A **public lab notebook** for AZ-900, reframed through risk, compliance, and gov
 
 ## Why this repo exists
 
-Everyone studies AZ-900. Almost nobody documents *thinking*. This repo shows:
+Notes and scenarios for AZ-900, focused on risk, compliance, and governance. It includes:
 
 - **Concepts** — What matters for risk, compliance, and people
 - **Threat scenarios** — What goes wrong in real life, and who gets hurt
