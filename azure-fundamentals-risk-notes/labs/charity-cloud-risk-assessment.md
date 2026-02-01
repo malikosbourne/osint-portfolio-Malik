@@ -2,7 +2,9 @@
 
 **Scenario:** A UK charity migrates to Azure. They store sensitive family data (beneficiaries, case notes, contact details). What could go wrong?
 
-This is a **scenario-based paper lab** — no paid Azure labs required. It mirrors real GRC work: assets, threats, vulnerabilities, controls, residual risk, and governance failures.
+**Why this matters:** Small charities are increasingly pushed toward cloud platforms without the governance maturity or resources of large organisations. This creates real risks to beneficiaries, staff, and trust. This lab explores those risks through a GRC lens focused on people, not just systems.
+
+This is a **scenario-based paper lab** — no paid Azure labs required. It mirrors real GRC work: assets, threats, vulnerabilities, controls, residual risk, and governance failures. This assessment draws loosely on ISO 27001 and NIST risk assessment principles, adapted for small UK charities.
 
 ---
 
@@ -115,6 +117,26 @@ After controls:
 | **Controls** | Policy (public blob, region), MFA, access reviews, least privilege, tagging, logging, decision log, IR playbook |
 | **Residual risk** | Low–Medium depending on control maturity; document acceptance |
 | **Governance failures** | No risk owner, no risk intake, policies not enforced, no access review, IR not tested, “too small” mindset |
+
+---
+
+## 9. What I’d do next
+
+**Prioritised next steps**
+
+1. **Immediate** — Disable public blob access on any existing storage; assign one named person as “risk owner” for cloud; document one-page incident playbook (who to call, ICO 72-hour rule, where to log).
+2. **Short term (0–3 months)** — Roll out MFA for all; run first access review (who has what, remove leavers); set Azure Policy to deny public blob and require UK region for new resources tagged “personal-data”.
+3. **Medium term (3–6 months)** — Introduce decision log and lightweight risk register; test break-glass and recovery; schedule quarterly access review.
+
+**Quick wins vs longer-term controls**
+
+- **Quick wins** — Public blob off, MFA on, one risk owner, one-page IR playbook. Low cost, high signal to funders and auditors.
+- **Longer-term** — Full Policy rollout, tagging standard, logging/alerting, regular access reviews. Need time and (optionally) external support.
+
+**Where resourcing would be needed**
+
+- **Internal** — Someone (e.g. DPO, COO, or trustee) needs time to own the decision log, risk register, and access reviews. For a ~15 FTE charity, that’s likely 0.1–0.2 FTE or a few hours per month, not a full-time role.
+- **External** — Optional: one-off review of Azure config and policies by someone with cloud/GRC experience; or short training on shared responsibility and incident response for the risk owner.
 
 ---
 
