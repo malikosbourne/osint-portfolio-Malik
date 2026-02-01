@@ -1,6 +1,6 @@
 # Example Scenario — Initial Analysis (Human Draft)
 
-**Purpose:** First-pass risk analysis before asking AI to challenge or extend. This is *your* thinking.
+**Purpose:** First-pass risk analysis before asking AI to challenge or extend. 
 
 ---
 
