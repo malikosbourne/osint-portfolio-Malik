@@ -105,7 +105,7 @@ After controls:
 
 ---
 
-## 8. Summary Table (for portfolio or interview)
+## 8. Summary Table 
 
 | Element | Summary |
 |---------|---------|
