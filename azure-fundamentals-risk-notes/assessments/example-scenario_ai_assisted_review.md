@@ -1,6 +1,6 @@
 # Example Scenario — AI-Assisted Review (Cursor Output)
 
-**Purpose:** Capture the AI’s suggestions so you can critique them. Do *not* accept blindly — see final assessment.
+**Purpose:** Capture the AI’s suggestions so I can critique them. Without accepting blindly — see final assessment.
 
 ---
 
