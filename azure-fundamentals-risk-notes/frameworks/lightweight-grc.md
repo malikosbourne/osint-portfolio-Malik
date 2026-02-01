@@ -71,7 +71,4 @@ Keep a simple log (spreadsheet or markdown) of material governance decisions:
 
 ---
 
-## How to use this
 
-- Adopt as-is or trim to your size. The goal is **defensible**, not perfect.
-- When you grow or take on GRC training (e.g. GRC Mastery), plug in new concepts (e.g. formal risk taxonomy, control frameworks) and refine. The timeline — “we started here, we improved here” — is itself evidence of maturity.
