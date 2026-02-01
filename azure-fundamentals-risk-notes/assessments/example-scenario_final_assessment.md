@@ -1,6 +1,6 @@
 # Example Scenario — Final Assessment (Human-Led, AI-Informed)
 
-**Purpose:** Your definitive risk assessment after critiquing the AI. Shows **human judgement** and **governance maturity**.
+**Purpose:** My definitive risk assessment after critiquing the AI. 
 
 ---
 
@@ -48,4 +48,4 @@ A small UK charity moves beneficiary case notes from a shared drive to Azure Blo
 
 ---
 
-*This example shows the workflow: initial (you) → AI-assisted (Cursor) → final (you, critiquing AI). Duplicate and replace with your own scenario when you run a real assessment.*
+
