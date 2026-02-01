@@ -1,10 +1,12 @@
 # Data Residency (UK)
 
+This is how I think about data residency when I’m assessing UK cloud deployments.
+
 ## What is this?
 
-**Data residency** is where data is physically stored and processed. In the UK, this matters for law (e.g. UK GDPR, DPA 2018, sector rules), contracts, and public expectation. Azure lets you choose regions (e.g. UK South, UK West); you can keep UK personal data in UK datacentres if you configure services accordingly.
+**Data residency** is where data is physically stored and processed. In the UK, I treat this as mattering for law (e.g. UK GDPR, DPA 2018, sector rules), contracts, and public expectation. Azure lets me choose regions (e.g. UK South, UK West); I can keep UK personal data in UK datacentres if I configure services accordingly.
 
-Residency is *not* the same as “who can access it” (that’s access control and jurisdiction of the provider). So “UK region” helps with residency; you still need contracts, access policies, and sub-processor awareness for full compliance.
+I treat residency as *not* the same as “who can access it” (that’s access control and jurisdiction of the provider). So “UK region” helps with residency; I still need contracts, access policies, and sub-processor awareness for full compliance.
 
 ## Why does it matter for risk, compliance, or people?
 
@@ -15,7 +17,7 @@ Residency is *not* the same as “who can access it” (that’s access control 
 ## What goes wrong in real life?
 
 - **Default region** — New resources created in a non-UK region (e.g. West Europe) because no one set a default or checked. Discovery happens only at audit or after a breach.
-- **Sub-services and replication** — A service may use components or backups in other regions. Without reading the provider’s documentation and terms, you may assume “UK” means “everything UK.”
+- **Sub-services and replication** — A service may use components or backups in other regions. Without reading the provider’s documentation and terms, I may assume “UK” means “everything UK” — I have to check.
 - **No policy or tagging** — No clear rule (“UK personal data → UK regions only”) and no tagging to detect drift. Dev/test or “quick” workloads end up holding real data in the wrong place.
 
 ## Who gets hurt when it goes wrong?

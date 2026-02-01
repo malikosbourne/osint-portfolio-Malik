@@ -1,6 +1,6 @@
 # Example Scenario — AI-Assisted Review (Cursor Output)
 
-**Purpose:** Capture the AI’s suggestions so you can critique them. Do *not* accept blindly — see final assessment.
+**Purpose:** I capture the AI’s suggestions here so I can critique them. I don’t accept them blindly — see my final assessment.
 
 ---
 
@@ -12,9 +12,9 @@
 
 ## AI output (condensed)
 
-**Challenges to your assumptions:**
+**Challenges to my assumptions:**
 - UK region is *not* default; West Europe often is. So “could be wrong region” is a real risk, not just theoretical.
-- Shared responsibility: Microsoft handles physical security and platform encryption at rest; *you* handle access control, key management if you bring your own key, and logging/alerting. So “who does what” needs to be explicit.
+- Shared responsibility: Microsoft handles physical security and platform encryption at rest; *I* (or the charity) handle access control, key management if we bring our own key, and logging/alerting. So “who does what” needs to be explicit.
 
 **Missing risks:**
 - No retention or deletion policy → data kept indefinitely; UK GDPR “storage limitation” and subject access/erasure harder.

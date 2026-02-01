@@ -2,9 +2,9 @@
 
 **Scenario:** A UK charity migrates to Azure. They store sensitive family data (beneficiaries, case notes, contact details). What could go wrong?
 
-**Why this matters:** Small charities are increasingly pushed toward cloud platforms without the governance maturity or resources of large organisations. This creates real risks to beneficiaries, staff, and trust. This lab explores those risks through a GRC lens focused on people, not just systems.
+**Why I did this:** Small charities are increasingly pushed toward cloud without the governance maturity or resources of large organisations. I wanted to explore the risks that creates for beneficiaries, staff, and trust — through a GRC lens focused on people, not just systems.
 
-This is a **scenario-based paper lab** — no paid Azure labs required. It mirrors real GRC work: assets, threats, vulnerabilities, controls, residual risk, and governance failures. This assessment draws loosely on ISO 27001 and NIST risk assessment principles, adapted for small UK charities.
+This is a **scenario-based paper lab** I ran myself (no paid Azure labs). I structured it as assets, threats, vulnerabilities, controls, residual risk, and governance failures. I drew loosely on ISO 27001 and NIST risk assessment principles, adapted for small UK charities.
 
 ---
 
@@ -26,7 +26,7 @@ This is a **scenario-based paper lab** — no paid Azure labs required. It mirro
 | Configuration and secrets | Storage keys, app config, connection strings | High | IT |
 | Logs and audit trail | Who did what, when | Medium (needed for compliance and IR) | IT / DPO |
 
-**Why this matters for risk:** You can’t protect what you haven’t named. Listing assets forces clarity on what “sensitive family data” actually is and who cares about it.
+**Why I start here:** I need to name assets before I can protect them. Listing them forces me to be clear about what “sensitive family data” actually is and who owns it.
 
 ---
 
@@ -42,7 +42,7 @@ This is a **scenario-based paper lab** — no paid Azure labs required. It mirro
 | Loss of access (admin departure, misconfiguration) | Key person leaves or access revoked incorrectly; no recovery path | Medium | Medium — operational disruption, possible data loss |
 | Sub-processor or provider incident | Microsoft or downstream provider breach or outage | Low | Depends on scope — contract and shared responsibility matter |
 
-**Why this matters:** Threats are *what might happen*. They feed into “what goes wrong in real life” and who gets hurt — see concept and threat-scenario notes.
+**Why I map these:** I treat threats as *what might happen*. I then use them to think through what goes wrong in real life and who gets hurt — I reference my concept and threat-scenario notes for this.
 
 ---
 
@@ -58,13 +58,13 @@ This is a **scenario-based paper lab** — no paid Azure labs required. It mirro
 | Contract and shared-responsibility not read | Don’t know exactly what Microsoft does vs what the charity must do | Misalignment with compliance and incident response |
 | Small team, no dedicated security | Governance and security are “everyone’s job” and often deferred | All of the above |
 
-**Why this matters:** Vulnerabilities are *why* threats might succeed. Fixing them is where controls come in.
+**Why I list these:** I treat vulnerabilities as *why* threats might succeed. I then must address them with controls.
 
 ---
 
 ## 5. Controls
 
-| Control | What we do | Intended to address |
+| Control | What I would do / recommend | Intended to address |
 |---------|------------|----------------------|
 | Azure Policy: deny public blob, require UK region for sensitive workloads | Prevent public storage; enforce region at deploy time | Misconfigured storage, data residency |
 | Entra ID: MFA required for all; conditional access for privileged roles | Reduce impact of credential theft | Credential compromise |
@@ -76,21 +76,21 @@ This is a **scenario-based paper lab** — no paid Azure labs required. It mirro
 | Incident response playbook | Who to call, what to do (contain, assess, notify ICO if breach), how to record | Any breach or serious incident |
 | Training and awareness | Staff know: no public storage, no sharing credentials, report odd emails | Phishing, misuse, misconfiguration |
 
-**Why this matters:** Controls reduce likelihood or impact. They need to be proportionate (see Lightweight GRC) and owned by someone.
+**Why I chose these:** I use controls to reduce likelihood or impact. I keep them proportionate (see my Lightweight GRC draft) and I assign an owner to each.
 
 ---
 
 ## 6. Residual Risk
 
-After controls:
+After applying the controls above, I assess residual risk as follows:
 
-- **Misconfigured storage** — Residual risk: Low–Medium if Policy and review are in place; Medium if not enforced or bypassed (e.g. exceptions without approval).
-- **Credential compromise** — Residual risk: Medium (MFA and conditional access reduce but don’t eliminate phishing and social engineering).
-- **Insider misuse** — Residual risk: Low–Medium with access reviews and least privilege; higher if reviews are skipped or delayed.
-- **Data in wrong region** — Residual risk: Low if Policy and tagging are used; Medium if creation is ad hoc and unchecked.
-- **Loss of access** — Residual risk: Low if runbooks and break-glass are documented and tested; Medium if single point of failure remains.
+- **Misconfigured storage** — Low–Medium if Policy and review are in place; I would rate it Medium if not enforced or bypassed (e.g. exceptions without approval).
+- **Credential compromise** — Medium: MFA and conditional access reduce but don’t eliminate phishing and social engineering.
+- **Insider misuse** — Low–Medium with access reviews and least privilege; I would rate it higher if reviews are skipped or delayed.
+- **Data in wrong region** — Low if Policy and tagging are used; Medium if creation is ad hoc and unchecked.
+- **Loss of access** — Low if runbooks and break-glass are documented and tested; Medium if a single point of failure remains.
 
-**Acceptance:** The charity should explicitly accept residual risks (e.g. “We accept Medium residual risk on credential compromise and will revisit after MFA and conditional access are fully rolled out”). Document in decision log or risk register.
+**What I would recommend:** I would advise the charity to explicitly accept residual risks (e.g. “We accept Medium residual risk on credential compromise and will revisit after MFA and conditional access are fully rolled out”) and to document that in the decision log or risk register.
 
 ---
 
@@ -103,7 +103,7 @@ After controls:
 - **Incident response not tested** — No playbook or no run-through. Result: delay and confusion when a real incident happens; possible breach notification delay.
 - **“We’re too small for governance”** — Decision to skip documentation and review. Result: when something goes wrong, no evidence of due diligence; regulators and funders ask “what did you do to prevent this?”
 
-**Why this matters:** Governance failures are *how* good intentions don’t turn into real control. Naming them helps the charity (and you) focus on process and accountability, not just technology.
+**Why I call these out:** I treat governance failures as *how* good intentions don’t turn into real control. Naming them helps me (and would help the charity) focus on process and accountability, not just technology.
 
 ---
 
@@ -124,20 +124,20 @@ After controls:
 
 **Prioritised next steps**
 
-1. **Immediate** — Disable public blob access on any existing storage; assign one named person as “risk owner” for cloud; document one-page incident playbook (who to call, ICO 72-hour rule, where to log).
-2. **Short term (0–3 months)** — Roll out MFA for all; run first access review (who has what, remove leavers); set Azure Policy to deny public blob and require UK region for new resources tagged “personal-data”.
-3. **Medium term (3–6 months)** — Introduce decision log and lightweight risk register; test break-glass and recovery; schedule quarterly access review.
+1. **Immediate** — I would disable public blob access on any existing storage; assign one named person as “risk owner” for cloud; and document a one-page incident playbook (who to call, ICO 72-hour rule, where to log).
+2. **Short term (0–3 months)** — I would roll out MFA for all; run a first access review (who has what, remove leavers); and set Azure Policy to deny public blob and require UK region for new resources tagged “personal-data”.
+3. **Medium term (3–6 months)** — I would introduce a decision log and lightweight risk register; test break-glass and recovery; and schedule quarterly access review.
 
 **Quick wins vs longer-term controls**
 
-- **Quick wins** — Public blob off, MFA on, one risk owner, one-page IR playbook. Low cost, high signal to funders and auditors.
-- **Longer-term** — Full Policy rollout, tagging standard, logging/alerting, regular access reviews. Need time and (optionally) external support.
+- **Quick wins** — Public blob off, MFA on, one risk owner, one-page IR playbook. I would prioritise these: low cost, high signal to funders and auditors.
+- **Longer-term** — Full Policy rollout, tagging standard, logging/alerting, regular access reviews. I would plan these once quick wins are in place; they need time and (optionally) external support.
 
-**Where resourcing would be needed**
+**Where I’d expect resourcing to be needed**
 
-- **Internal** — Someone (e.g. DPO, COO, or trustee) needs time to own the decision log, risk register, and access reviews. For a ~15 FTE charity, that’s likely 0.1–0.2 FTE or a few hours per month, not a full-time role.
-- **External** — Optional: one-off review of Azure config and policies by someone with cloud/GRC experience; or short training on shared responsibility and incident response for the risk owner.
+- **Internal** — I would expect someone (e.g. DPO, COO, or trustee) to own the decision log, risk register, and access reviews. For a ~15 FTE charity, I’d budget 0.1–0.2 FTE or a few hours per month, not a full-time role.
+- **External** — In the event that the charity lacks in-house cloud/GRC experience, I would recommend a one-off review of Azure config and policies, or short training on shared responsibility and incident response for the risk owner.
 
 ---
 
-*This lab is a **paper** exercise. In a real engagement, you’d validate against the actual tenant (subscriptions, policies, identities) and update with findings. Use it to demonstrate structured thinking and GRC literacy.*
+*This lab is a **paper** exercise I ran myself. In a real engagement I would validate against the actual tenant (subscriptions, policies, identities) and update with findings.*

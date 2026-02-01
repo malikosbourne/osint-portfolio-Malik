@@ -1,36 +1,36 @@
 # Azure Fundamentals — Risk Notes
 
-A **public lab notebook** for AZ-900, reframed through risk, compliance, and governance. Not just “cloud basics” — **risk-aware cloud thinking**.
+My **public lab notebook** for AZ-900, reframed through risk, compliance, and governance — risk-aware cloud thinking, not just cloud basics.
 
-## Why this repo exists
+## Why I built this
 
-Notes and scenarios for AZ-900, focused on risk, compliance, and governance. It includes:
+I wanted to document my AZ-900 work in a way that reflects how I think about risk and compliance. This repo is where I keep:
 
-- **Concepts** — What matters for risk, compliance, and people
-- **Threat scenarios** — What goes wrong in real life, and who gets hurt
-- **Governance** — Basic frameworks and decision logging
-- **Paper labs** — Scenario-based investigations (no paid labs required)
-- **Learning log** — Progress and reflection over time
+- **Concepts** — What I treat as important for risk, compliance, and people
+- **Threat scenarios** — What I see going wrong in real life and who gets hurt
+- **Governance** — Frameworks and decision logging I use
+- **Paper labs** — Scenario-based assessments (no paid labs; I run these myself)
+- **Learning log** — My progress and reflection over time
 
-When you eventually do GRC Mastery (or similar), you plug new knowledge into this structure. The timeline itself becomes evidence: *started here → refined this → improved governance decisions*.
+When I eventually do GRC Mastery (or similar), I will plug what I learn into this structure. The timeline is part of the evidence: *I started here → I refined this → I improved my governance decisions*.
 
 ## Structure
 
-| Folder / file | Purpose |
-|---------------|---------|
-| [concepts/](concepts/) | Core AZ-900 ideas through a risk lens |
-| [threat-scenarios/](threat-scenarios/) | Real-world failure modes and impact |
-| [governance/](governance/) | Basic cloud governance and frameworks |
-| [frameworks/](frameworks/) | Lightweight GRC for small UK orgs |
-| [labs/](labs/) | Paper labs — scenario-based risk assessments |
-| [assessments/](assessments/) | AI-assisted reviews (initial → AI critique → final) |
-| [risk-register/](risk-register/) | Example risk registers (charity, etc.) — Risk \| Likelihood \| Impact \| Controls \| Owner |
-| [explainers/](explainers/) | Short pieces for LinkedIn/Substack — cloud risk, compliance, governance |
-| [learning-log.md](learning-log.md) | Ongoing study and reflection |
+| Folder / file | What I use it for |
+|---------------|-------------------|
+| [concepts/](concepts/) | Core AZ-900 ideas through my risk lens |
+| [threat-scenarios/](threat-scenarios/) | Real-world failure modes and impact I track |
+| [governance/](governance/) | Basic cloud governance and frameworks I reference |
+| [frameworks/](frameworks/) | Lightweight GRC for small UK orgs (my working draft) |
+| [labs/](labs/) | Scenario-based risk assessments I run |
+| [assessments/](assessments/) | AI-assisted reviews: my initial analysis, AI critique, then my final assessment |
+| [risk-register/](risk-register/) | Example risk registers I built (charity, etc.) |
+| [explainers/](explainers/) | Short pieces I write for LinkedIn/Substack |
+| [learning-log.md](learning-log.md) | My ongoing study and reflection |
 
-## How each note is structured
+## How I structure each note
 
-Every concept and threat file answers:
+For each concept and threat note I answer:
 
 1. **What is this?**
 2. **Why does it matter for risk, compliance, or people?**
@@ -39,4 +39,4 @@ Every concept and threat file answers:
 
 ## Licence
 
-Use and adapt for your own learning. If you reuse structure or content, attribution is appreciated.
+I’m sharing this for others to use and adapt. If you reuse structure or content, attribution is appreciated.

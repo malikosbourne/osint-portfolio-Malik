@@ -1,6 +1,6 @@
 # Lightweight Governance for Small UK Orgs
 
-A simple, honest, and human framework for small UK organisations (charities, SMEs, small public sector bodies) that need governance without enterprise overhead. It doesn’t need to be perfect — it needs to be **thoughtful and defensible**.
+My working draft of a simple, honest framework for small UK organisations (charities, SMEs, small public sector bodies) that need governance without enterprise overhead. I don’t aim for perfect — I aim for **thoughtful and defensible**.
 
 ---
 
@@ -71,7 +71,7 @@ Keep a simple log (spreadsheet or markdown) of material governance decisions:
 
 ---
 
-## How to use this
+## How I use this
 
-- Adopt as-is or trim to your size. The goal is **defensible**, not perfect.
-- When you grow or take on GRC training (e.g. GRC Mastery), plug in new concepts (e.g. formal risk taxonomy, control frameworks) and refine. The timeline — “we started here, we improved here” — is itself evidence of maturity.
+- I adopt as-is or trim to the org’s size. The goal is **defensible**, not perfect.
+- When I grow or take on GRC training (e.g. GRC Mastery), I will plug in new concepts (e.g. formal risk taxonomy, control frameworks) and refine. I treat the timeline — “we started here, we improved here” — as evidence of maturity.

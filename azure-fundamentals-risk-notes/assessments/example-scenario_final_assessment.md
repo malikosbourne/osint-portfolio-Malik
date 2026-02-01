@@ -1,6 +1,6 @@
 # Example Scenario — Final Assessment (Human-Led, AI-Informed)
 
-**Purpose:** Your definitive risk assessment after critiquing the AI. Shows **human judgement** and **governance maturity**.
+**Purpose:** My definitive risk assessment after critiquing the AI. I use this to show **human judgement** and **governance maturity**.
 
 ---
 
@@ -44,8 +44,8 @@ A small UK charity moves beneficiary case notes from a shared drive to Azure Blo
 ## Residual risk and acceptance
 
 - **Residual risk:** Medium for “misconfiguration” and “single point of failure” until Policy and break-glass are in place; Low–Medium after.
-- **Acceptance:** Charity should explicitly accept residual risk and set a review date (e.g. after Policy is deployed and playbook drafted). Log in decision log.
+- **Acceptance:** I would recommend the charity explicitly accept residual risk and set a review date (e.g. after Policy is deployed and playbook drafted). I would log that in the decision log.
 
 ---
 
-*This example shows the workflow: initial (you) → AI-assisted (Cursor) → final (you, critiquing AI). Duplicate and replace with your own scenario when you run a real assessment.*
+*This example shows my workflow: initial (me) → AI-assisted (Cursor) → final (me, critiquing AI). I duplicate and replace with my own scenario when I run a real assessment.*

@@ -1,7 +1,7 @@
 # Risk Register (Example)
 
-Fictional but **realistic** risk registers for different contexts. Use as templates or portfolio evidence. Mirrors actual GRC work: Risk | Likelihood | Impact | Controls | Owner.
+Fictional but **realistic** risk registers I built for different contexts. I use them as templates and portfolio evidence. They mirror the GRC work I do: Risk | Likelihood | Impact | Controls | Owner.
 
-See:
+What I keep here:
 - [charity-example.md](charity-example.md) — UK charity with beneficiary data
-- *(Optional: add public-sector-example.md, startup-example.md)*
+- *(I may add public-sector-example.md, startup-example.md)*

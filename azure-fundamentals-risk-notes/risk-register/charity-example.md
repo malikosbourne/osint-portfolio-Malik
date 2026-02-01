@@ -1,8 +1,8 @@
 # Risk Register — Example: UK Charity (Azure Migration)
 
-**Context:** Small UK charity; beneficiary and family data in Azure. Fictional but realistic.
+**Context:** Small UK charity; beneficiary and family data in Azure. I built this as a fictional but realistic example.
 
-**Scale:** 1 = Low, 3 = High (likelihood and impact). Adjust to your org’s scale.
+**Scale:** I use 1 = Low, 3 = High (likelihood and impact). I adjust the scale to the org when I use this as a template.
 
 ---
 
@@ -19,8 +19,8 @@
 
 ---
 
-## Notes
+## Notes (how I use this)
 
-- **Owner** — Person or role accountable for the control and for reviewing the risk.
-- **Review** — Revisit at least annually or when something significant changes (new service, incident, regulatory change).
-- **Residual risk** — After controls, document what’s left and whether it’s accepted. Log acceptance and review date in the decision log (see [../frameworks/lightweight-grc.md](../frameworks/lightweight-grc.md)).
+- **Owner** — I assign a person or role accountable for the control and for reviewing the risk.
+- **Review** — I revisit at least annually or when something significant changes (new service, incident, regulatory change).
+- **Residual risk** — After controls, I document what’s left and whether it’s accepted. I log acceptance and review date in the decision log (see [../frameworks/lightweight-grc.md](../frameworks/lightweight-grc.md)).

@@ -1,18 +1,18 @@
 # AI-Assisted Risk Assessments
 
-This folder holds **scenario-based risk assessments** that show:
+This folder holds **scenario-based risk assessments** I run. For each one I:
 
-1. **Human-led initial analysis** — You draft the risk scenario and first pass.
-2. **AI-assisted review** — You ask Cursor (or similar) to challenge assumptions, identify missing risks, suggest controls. You capture that output here.
-3. **Final assessment** — You critique the AI output and merge your judgement into a final version.
+1. **Draft the initial analysis** — I write the risk scenario and my first pass.
+2. **Run an AI-assisted review** — I ask Cursor (or similar) to challenge my assumptions, identify missing risks, suggest controls. I capture that output here.
+3. **Write the final assessment** — I critique the AI output and merge my judgement into a final version.
 
-**Why commit all three?**
+**Why I commit all three**
 
-- **AI literacy** — You show you can use AI as a junior analyst, not a black box.
-- **Human judgement** — You show you don’t accept AI output blindly; you critique and correct.
-- **Governance maturity** — You document the process so others can see how decisions were made.
+- **AI literacy** — I use AI as a junior analyst, not a black box; I document that.
+- **Human judgement** — I don’t accept AI output blindly; I critique and correct, and I keep the record.
+- **Governance maturity** — I document the process so others can see how I made the decisions.
 
-That combo is rare and hireable.
+I treat that combo as evidence of how I work.
 
 ## Naming convention
 

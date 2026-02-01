@@ -1,13 +1,15 @@
 # Basic Cloud Governance Framework
 
+This is how I think about basic cloud governance when I’m advising or assessing small orgs.
+
 ## What is this?
 
-A minimal but explicit set of principles and processes for adopting and running cloud (here, Azure) in a controlled way. It answers: what we allow, how we decide, how we track decisions, and how we respond when things go wrong. “Basic” means fit for small teams and orgs that can’t run a full enterprise governance programme but still need clarity and accountability.
+A minimal but explicit set of principles and processes I use for adopting and running cloud (here, Azure) in a controlled way. It answers: what we allow, how we decide, how we track decisions, and how we respond when things go wrong. I treat “basic” as fit for small teams and orgs that can’t run a full enterprise governance programme but still need clarity and accountability.
 
 ## Why does it matter for risk, compliance, or people?
 
-- **Risk** — Without governance, cloud adoption is ad hoc. Decisions are inconsistent, drift goes unnoticed, and incidents are harder to contain and learn from.
-- **Compliance** — Regulators and auditors expect documented policies, decision trails, and evidence of control. A simple framework gives you something to point to and improve.
+- **Risk** — Without governance, I see cloud adoption as ad hoc. Decisions are inconsistent, drift goes unnoticed, and incidents are harder to contain and learn from.
+- **Compliance** — Regulators and auditors expect documented policies, decision trails, and evidence of control. I use a simple framework so I have something to point to and improve.
 - **People** — Staff know what’s expected; data subjects and partners see that the org takes governance seriously. Reduces “who decided that?” and “why are we allowed to do this?” confusion.
 
 ## What goes wrong in real life?
@@ -31,4 +33,4 @@ A minimal but explicit set of principles and processes for adopting and running 
 - **Incident response basics** — Who is notified, what is documented, when to escalate; link to data breach notification if applicable.
 - **Review cadence** — When access, policies, and risks are revisited (e.g. quarterly or on major change).
 
-See [../frameworks/lightweight-grc.md](../frameworks/lightweight-grc.md) for a concrete “Lightweight Governance for Small UK Orgs” version.
+I expand this in [../frameworks/lightweight-grc.md](../frameworks/lightweight-grc.md) — my working “Lightweight Governance for Small UK Orgs” version.

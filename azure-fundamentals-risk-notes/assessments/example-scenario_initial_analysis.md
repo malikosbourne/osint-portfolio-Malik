@@ -1,6 +1,6 @@
 # Example Scenario — Initial Analysis (Human Draft)
 
-**Purpose:** First-pass risk analysis before asking AI to challenge or extend. This is *your* thinking.
+**Purpose:** My first-pass risk analysis before I ask AI to challenge or extend. This is *my* thinking.
 
 ---
 
@@ -30,4 +30,4 @@ A small UK charity moves beneficiary case notes from a shared drive to Azure Blo
 
 ## Next step
 
-Ask Cursor to: (1) challenge these assumptions, (2) identify missing risks, (3) suggest controls. Then I’ll critique the AI output and write the final assessment.
+I will then ask Cursor to: (1) challenge these assumptions, (2) identify missing risks, (3) suggest controls. Then I’ll critique the AI output and write the final assessment.

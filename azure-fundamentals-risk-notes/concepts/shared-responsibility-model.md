@@ -1,15 +1,17 @@
 # Shared Responsibility Model
 
+This is how I think about shared responsibility when I’m assessing cloud risk.
+
 ## What is this?
 
 In Azure (and most major clouds), security and compliance are **shared** between Microsoft and the customer. Microsoft is responsible for the security *of* the cloud (physical datacentres, host OS, networking, hypervisor). The customer is responsible for security *in* the cloud (identity, data, apps, access control, configuration).
 
-The exact split depends on the service model (IaaS, PaaS, SaaS): more “managed” means more on Microsoft, more “you run the OS/VM” means more on you.
+I treat the exact split as depending on the service model (IaaS, PaaS, SaaS): more “managed” means more on Microsoft, more “we run the OS/VM” means more on us.
 
 ## Why does it matter for risk, compliance, or people?
 
-- **Risk ownership** — If something goes wrong, “who was supposed to do what?” is decided by this model. Blurred lines = disputes, delayed response, and people left without answers.
-- **Compliance** — Auditors and regulators (e.g. ICO, sector regulators) expect you to know and document your responsibilities. Saying “the cloud is secure” without mapping your part is a governance failure.
+- **Risk ownership** — If something goes wrong, “who was supposed to do what?” is decided by this model. I treat blurred lines as leading to disputes, delayed response, and people left without answers.
+- **Compliance** — Auditors and regulators (e.g. ICO, sector regulators) expect me to know and document my responsibilities. I treat “the cloud is secure” without mapping my part as a governance failure.
 - **People** — Staff and users assume “someone” has secured things. When the model isn’t explained, incidents create confusion, blame, and loss of trust.
 
 ## What goes wrong in real life?
