@@ -29,13 +29,6 @@ Structure
 - IT-Support-Ticket-Simulator/ — hands-on project that uses GitHub Issues to simulate tickets
 - books/ — reading notes and analyses
 
-Reproducibility
-To reproduce notebooks locally:
-1. Create environment:
-   - conda env: `conda env create -f environment.yml` (if provided)
-   - or pip: `python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt`
-2. Launch Jupyter: `jupyter lab`
-3. Open notebooks in `notebooks/` and follow the top-level README there.
 
 Ethics & Data
 - All investigations follow a principle of minimizing harm: do not expose private identifiers or dox individuals.
